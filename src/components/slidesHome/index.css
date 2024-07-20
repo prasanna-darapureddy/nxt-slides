@@ -1,0 +1,123 @@
+.home-bg {
+  background-color: #f8fafc;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.btn-div {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.plus-img {
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+.new-btn {
+  background-color: #dbeafe;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 10px;
+  font-weight: 500;
+  font-family: "Bree Serif";
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 8px;
+}
+.total-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.slides-list-div {
+  width: 25%;
+  height: 560px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+.slide-whole-box {
+  display: flex;
+  padding: 20px 30px;
+  list-style-type: none;
+}
+.active-slide-whole-box {
+  background-color: #dbeafe;
+  display: flex;
+  padding: 20px 30px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  list-style-type: none;
+}
+.numbers {
+  margin: 0;
+}
+.slide-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png");
+  background-size: cover;
+  height: 150px;
+  cursor: pointer;
+}
+.slide-heading {
+  margin: 0px;
+  font-size: 20px;
+  color: #0967d2;
+}
+.main-slide-div {
+  width: 75%;
+  height: 65vh;
+  padding: 40px 100px;
+}
+.selected-slid-bg {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png");
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.heading {
+  font-size: 40px;
+  color: #0967d2;
+  cursor: pointer;
+  margin: 0;
+}
+.description {
+  font-size: 30px;
+  cursor: pointer;
+}
+.user-input {
+  background-color: #dbeafe;
+  height: 80px;
+  width: 50%;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  font-size: 35px;
+  font-weight: 600px;
+  font-family: "Bree Serif";
+}
+.input-color {
+  color: #0967d2;
+}
